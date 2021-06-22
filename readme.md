@@ -6,7 +6,7 @@ Cookiecutter in a Docker container. Create new projects templates inside this co
 
 ```
 docker build -t cookiecutter .
-docker run --rm -ti -v ${PWD}/app:/app cookiecutter cookiecutter gh:dantium/django-docker-tailwind
+docker run --rm -ti -v ${PWD}/app:/app cookiecutter cookiecutter gh:name/project_name
 ```
 
 
